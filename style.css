@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 40px;
+    color: white;
+    text-align: left;
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 50px;
+    gap: 50px;
+}
+
+.add-note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white solid 7px;
+    border-radius: 24px;
+    width: 400px;
+    height: 400px;
+}
